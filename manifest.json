@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Replace Images",
+  "version": "1.0",
+  "description": "Replace Images",
+    "icons": {
+    "16": "images/IMG_8200.png",
+    "32": "images/IMG_8200.png",
+    "48": "images/IMG_8200.png",
+    "128": "images/IMG_8200.png"
+  },
+    "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
